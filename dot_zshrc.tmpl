@@ -3,8 +3,8 @@
 
 # Path to your Oh My Zsh installation.
 #export ZSH="$HOME/.oh-my-zsh"
-{{ if env "REPLIT" }}
-export ZSH={{ env "REPLIT_ZSH" | default "$HOME/.oh-my-zsh" }}
+{{ if env "NIX_S" }}
+export ZSH={{ env "NIX_S_ZSH" | default "$HOME/.oh-my-zsh" }}
 {{ else }}
 export ZSH="$HOME/.oh-my-zsh"
 {{ end }}
