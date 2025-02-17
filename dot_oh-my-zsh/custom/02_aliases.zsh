@@ -4,24 +4,23 @@ alias vi=nvim
 
 # lsd
 # Modern ls aliases using lsd
-alias l='lsd -lF'        # Long format, classify
-alias la='lsd -lAF'      # Long format, show almost all (including hidden), classify
-alias lr='lsd -tR'       # Sort by time, recursive
-alias lt='lsd -lt'       # Long format, sort by time
-alias ll='lsd -l'        # Long format
-alias ldot='lsd -ld .*'  # List only hidden files/dirs
-alias lS='lsd -1S'       # Single column, sort by size
-alias lart='lsd -1art'   # Single column, all files, sorted by time (reverse)
-alias lrt='lsd -1rt'     # Single column, sorted by time (reverse)
-alias lsr='lsd -lAR'     # Long format, all files, recursive
-alias lsn='lsd -1'       # Single column format
+# alias l='lsd -lF'        # Long format, classify
+# alias la='lsd -lAF'      # Long format, show almost all (including hidden), classify
+# alias lr='lsd -tR'       # Sort by time, recursive
+# alias lt='lsd -lt'       # Long format, sort by time
+# alias ll='lsd -l'        # Long format
+# alias ldot='lsd -ld .*'  # List only hidden files/dirs
+# alias lS='lsd -1S'       # Single column, sort by size
+# alias lart='lsd -1art'   # Single column, all files, sorted by time (reverse)
+# alias lrt='lsd -1rt'     # Single column, sorted by time (reverse)
+# alias lsr='lsd -lAR'     # Long format, all files, recursive
+# alias lsn='lsd -1'       # Single column format
 
 # Additional useful lsd-specific aliases you might like
 alias ltree='lsd --tree'           # Tree view
 alias lgi='lsd --group-dirs first' # Show directories first
 
 # bat
-alias cat='batcat'
 alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 
@@ -41,4 +40,4 @@ alias gitconfig='vim ~/.gitconfig'
 # chezmoi
 alias ch=chezmoi
 alias che="chezmoi edit"
-alias che-zsh="chezmoi ~/.zshrc" 
+alias che-zsh="chezmoi edit ~/.zshrc" 
