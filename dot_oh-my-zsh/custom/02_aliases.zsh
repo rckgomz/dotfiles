@@ -30,14 +30,16 @@ alias fd='fdfind'
 # btm
 alias top='btm'
 
-# config
-alias zshconfig='vim ~/.zshrc'
-alias ohmyzsh="vim ~/.oh-my-zsh"
-alias zshexports='vim ~/.oh-my-zsh/custom/01_exports.zsh'
-alias zshaliases='vim ~/.oh-my-zsh/custom/02_aliases.zsh'
-alias gitconfig='vim ~/.gitconfig'
 
 # chezmoi
 alias ch=chezmoi
 alias che="chezmoi edit"
 alias che-zsh="chezmoi edit ~/.zshrc" 
+
+# config
+alias zshconfig='che ~/.zshrc'
+alias ohmyzsh="che ~/.oh-my-zsh"
+alias zshexports='che ~/.oh-my-zsh/custom/01_exports.zsh'
+alias zshaliases='che ~/.oh-my-zsh/custom/02_aliases.zsh'
+alias zshfns='che ~/.oh-my-zsh/custom/03_fns.zsh'
+alias gitconfig='vim ~/.gitconfig'
