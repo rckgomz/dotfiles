@@ -21,8 +21,8 @@ alias ltree='lsd --tree'           # Tree view
 alias lgi='lsd --group-dirs first' # Show directories first
 
 # bat
-alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
-alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
+alias -g -- -h='-h 2>&1 | cat --language=help --style=plain'
+alias -g -- --help='--help 2>&1 | cat --language=help --style=plain'
 
 # fd
 alias fd='fdfind'
