@@ -30,10 +30,8 @@ export VISUAL=${EDITOR}
 export GIT_EDITOR=${EDITOR}
 
 #bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
-#batdiff
-export BATDIFF_USE_DELTA=true
 
 #fzf
 export FZF_DEFAULT_COMMAND='fd'
