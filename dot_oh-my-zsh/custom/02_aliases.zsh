@@ -35,6 +35,7 @@ alias fd='~/.asdf/shims/fd'
 alias ch=chezmoi
 alias che="chezmoi edit"
 alias che-zsh="chezmoi edit ~/.zshrc" 
+alais cha="chezmoi -v apply"
 
 # config
 alias zshconfig='che ~/.zshrc'
