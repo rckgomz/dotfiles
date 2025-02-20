@@ -62,26 +62,6 @@ vim.keymap.set("n", "<leader>w", "<cmd>w<cr><esc>", { desc = "Safe buffer", nore
 
 -- yanking
 vim.keympa.set("x", "<leader>P", '"_dP', { noremap = true })
--- 1. Indenting in visual mode while staying in visual mode
--- Vim: xnoremap < <gv
--- Vim: xnoremap > >gv
-vim.keymap.set("x", "<", "<gv", { noremap = true })
-vim.keymap.set("x", ">", ">gv", { noremap = true })
-
--- 2. Move selected text up/down
--- Vim: xnoremap J :move '>+1<CR>gv=gv
--- Vim: xnoremap K :move '<-2<CR>gv=gv
-vim.keymap.set("x", "J", ":move '>+1<CR>gv=gv", { noremap = true })
-vim.keymap.set("x", "K", ":move '<-2<CR>gv=gv", { noremap = true })
-
--- 3. Keep paste buffer when pasting over selection
--- Vim: xnoremap p pgvy
--- commented out in favor of <leader>P
--- vim.keymap.set("x", "p", "pgvy", { noremap = true })
-
--- 4. Copy to system clipboard
--- Vim: xnoremap <leader>y "+y
-vim.keymap.set("x", "<leader>y", '"+y', { noremap = true })
 
 -- 5. Delete without yanking
 -- Vim: xnoremap <leader>d "_d
