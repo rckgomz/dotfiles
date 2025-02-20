@@ -24,9 +24,6 @@ alias lgi='lsd --group-dirs first' # Show directories first
 #alias -g -- -h='-h 2>&1 | cat --language=help --style=plain'
 #alias -g -- --help='--help 2>&1 | cat --language=help --style=plain'
 
-# fd
-alias fd='fdfind'
-
 # btm
 alias top='btm'
 
