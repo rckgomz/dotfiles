@@ -61,7 +61,7 @@ vim.keymap.set(
 vim.keymap.set("n", "<leader>w", "<cmd>w<cr><esc>", { desc = "Safe buffer", noremap = true, silent = true })
 
 -- yanking
-vim.keympa.set("x", "<leader>P", '"_dP', { noremap = true })
+vim.keymap.set("x", "<leader>P", '"_dP', { noremap = true })
 
 -- 5. Delete without yanking
 -- Vim: xnoremap <leader>d "_d
