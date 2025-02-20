@@ -27,6 +27,9 @@ alias lgi='lsd --group-dirs first' # Show directories first
 # btm
 alias top='btm'
 
+#fd
+alias fd='~/.asdf/shims/fd'
+
 
 # chezmoi
 alias ch=chezmoi
