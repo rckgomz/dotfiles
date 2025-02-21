@@ -70,3 +70,6 @@ vim.keymap.set("x", "<leader>d", '"_d', { noremap = true })
 -- 6. Search for visually selected text
 -- Vim: xnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 vim.keymap.set("x", "//", "y/\\V<C-R>=escape(@\",'/\\')<CR><CR>", { noremap = true })
+
+vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true })
+vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true })
