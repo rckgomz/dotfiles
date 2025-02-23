@@ -5,26 +5,26 @@ return {
     opts = {
       flavor = "mocha",
       transparent_background = true,
-      color_overrides = {
-        mocha = {
-          base = "",
-        },
-      },
       custom_highlights = function(colors)
         return {
           -- Set border colors to mauve
-          -- FloatBorder = { fg = colors.mauve },
-          -- TelescopeBorder = { fg = colors.mauve },
-          -- NeoTreeBorder = { fg = colors.mauve },
-          -- WhichKeyBorder = { fg = colors.mauve },
-          -- NotifyBorder = { fg = colors.mauve },
-          -- NoiceCmdlinePopupBorder = { fg = colors.mauve },
-          -- LazyNormal = { bg = colors.base },
+          FloatBorder = { fg = colors.mauve },
+          TelescopeBorder = { fg = colors.mauve },
+          NeoTreeBorder = { fg = colors.mauve },
+          WhichKeyBorder = { fg = colors.mauve },
+          NotifyBorder = { fg = colors.mauve },
+          NoiceCmdlinePopupBorder = { fg = colors.mauve },
+          LazyNormal = { bg = colors.base },
+          LspInfoBorder = { bg = colors.base }, -- Border of LSP info window
+          NoiceCmdlineBorder = { bg = colors.base }, -- Border of Noice cmdline
+          NoiceConfirmBorder = { bg = colors.base }, -- Border of Noice confirmation
+          CmpBorder = { bg = colors.base }, -- Border of completion menu
         }
       end,
       integrations = {
         aerial = true,
         alpha = true,
+        blink_cmp = true,
         cmp = true,
         dashboard = true,
         flash = true,

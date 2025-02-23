@@ -16,6 +16,16 @@ return {
         max_tokens = 4096,
         reasoning_effort = "high", -- only supported for "o" models
       },
+      behaviour = {
+        auto_suggestions = true, -- Experimental stage
+        auto_set_highlight_group = true,
+        auto_set_keymaps = true,
+        auto_apply_diff_after_generation = false,
+        support_paste_from_clipboard = false,
+        minimize_diff = true, -- Whether to remove unchanged lines when applying a code block
+        enable_token_counting = true, -- Whether to enable token counting. Default to true.
+        enable_cursor_planning_mode = false, -- Whether to enable Cursor Planning Mode. Default to false.
+      },
     },
     -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
     build = "make",
