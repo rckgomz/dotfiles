@@ -5,6 +5,11 @@ return {
     opts = {
       flavor = "mocha",
       transparent_background = true,
+      color_overrides = {
+        mocha = {
+          base = "",
+        },
+      },
       custom_highlights = function(colors)
         return {
           -- Set border colors to mauve
