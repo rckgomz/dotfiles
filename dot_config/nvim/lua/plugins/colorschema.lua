@@ -4,6 +4,7 @@ return {
     "catppuccin/nvim",
     opts = {
       flavor = "mocha",
+      transparent_background = true,
       custom_highlights = function(colors)
         return {
           -- Set border colors to mauve
