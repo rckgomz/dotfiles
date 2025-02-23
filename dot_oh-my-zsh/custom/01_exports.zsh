@@ -11,7 +11,7 @@ export PATH="${HOME}/.local/bin/:${PATH}"
 
 # Term colors
 export COLORTERM=truecolor
-export TERM=xterm-256color
+#export TERM=xterm-256color
 
 # TMUX
 export ZSH_TMUX_AUTOSTART=true
