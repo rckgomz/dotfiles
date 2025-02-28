@@ -69,6 +69,7 @@ ZSH_THEME="robbyrussell"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+export FZF_BASE="${HOME}/.asdf/shims/fzf"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -113,7 +114,6 @@ plugins=(
 
 FD_OPTIONS="--flow --exclude .git --exclude node_modules --exclude .cache"
 
-export FZF_BASE="${HOME}/.asdf/shims/fzf"
 export FZF_COMPLETION_TRIGGER='~~'
 export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standar | fd --type f --type 1 $FD_OPTIONS"
 export FZF_CTRL_T_COMMND="fd $FD_OPTIONS"
