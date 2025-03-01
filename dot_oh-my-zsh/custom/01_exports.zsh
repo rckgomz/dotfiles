@@ -14,7 +14,7 @@ export COLORTERM=truecolor
 #export TERM=xterm-256color
 
 # TMUX
-export ZSH_TMUX_AUTOSTART=true
+# export ZSH_TMUX_AUTOSTART=true
 
 
 #Buildkit
